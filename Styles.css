@@ -1,0 +1,94 @@
+.nav-bar {
+    line-height: 1.66;
+    background-color: #fefefe;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+.article-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 100px;
+    padding-left: 40px;
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    line-height: 50px;
+}
+
+.article-subtitle{
+    font-size: 12px;
+    line-height: 16px;
+    color: #9b9b9b;
+    padding-left: 40px;
+}
+
+.socialbar{
+    padding-left: 40px;  
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.image_image{
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    padding-left: 40px;
+}
+
+p{
+    justify-content: left;
+    align-items: left;
+    font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
+    font-size: 15px;
+    margin: 0 auto 24px 100px;
+    color: #000;
+    font-weight: 20px;
+    max-width: 600px;
+    text-align: left;
+}
+
+h3{
+    font-family: CNNTravel,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 32px 0 -16px;
+    padding-left: 40px;
+}
+
+a{
+    font color: black;
+    cursor: pointer;
+}
+
+.em{
+    font-size: 15px;
+    margin: 0 auto 24px 100px;
+    color: #000;
+    font-weight: 20px;
+    max-width: 600px;
+    text-align: left;
+}
+
+.container{
+
+}
+
+.copyright{
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    align-items: left;
+    font-size: 12px;
+    max-width: 400px;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
