@@ -29,6 +29,13 @@
     padding-left: 40px;
 }
 
+.article-subtitle-inside{
+    padding-left: 0px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #9b9b9b;
+}
+
 .socialbar{
     padding-left: 40px;  
     margin-top: 30px;
@@ -48,7 +55,7 @@ p{
     align-items: left;
     font-family: CNN,Helvetica Neue,Helvetica,Arial,Utkal,sans-serif;
     font-size: 15px;
-    margin: 0 auto 24px 100px;
+    margin: 0 auto 24px 40px;
     color: #000;
     font-weight: 20px;
     max-width: 600px;
@@ -61,12 +68,26 @@ h3{
     font-weight: 600;
     line-height: 24px;
     margin: 32px 0 -16px;
+    margin-bottom: 10px;
     padding-left: 40px;
 }
 
 a{
+    
+    justify-content: left;
+    align-items: left;
     font color: black;
     cursor: pointer;
+}
+
+figcaption{
+    justify-content: left;
+    align-items: left;
+    margin: 0 auto 24px 0px;
+    color: #000;
+    font-weight: 20px;
+    max-width: 600px;
+    text-align: left;
 }
 
 .em{
@@ -78,8 +99,15 @@ a{
     text-align: left;
 }
 
-.container{
+.em-alink{
+    padding-left: 40px;
+    margin: 0 auto 24px 100px;
+    text-align: left;
+}
 
+.container{
+margin-top: 50px;
+padding-left: 40px;
 }
 
 .copyright{
@@ -91,4 +119,9 @@ a{
     padding-left: 40px;
     padding-top: 100px;
     padding-bottom: 50px;
+}
+
+#video{
+    margin-left: 40px;
+    margin-top: 70px;
 }

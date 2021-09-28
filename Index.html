@@ -5,23 +5,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Elon Musk anuncia el momento del lanzamiento de la red de Internet satelital Starlink</title>
+        <link rel="stylesheet" href="Normalize.css">
+        <link rel="stylesheet" href="Styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Elon Musk anuncia el momento del lanzamiento de la red de Internet satelital Starlink</h1>
+            <div class="nav-bar">
+                <a href="https://edition.cnn.com/"><img src="Imagenes/Imagen-CNN.png"></a>
+                <a href="https://edition.cnn.com/travel"><img src="Imagenes/Imagen-Travel.png"></a>
+            </div>
+            <h1 class="article-title">Elon Musk anuncia el momento del lanzamiento de la red de Internet satelital Starlink</h1>
             <span>
-                <time>Publicado: 20 dep 2021 10:36 GTM</time>
+                <time class="article-subtitle">Publicado: 20 dep 2021 10:36 GTM</time>
             </span>
             <!--Para mi era "del proyecto" pero en la noticia dice "de la"-->
-            <h2>La versión beta de la proyecto viene funcionando desde hace más de un año y actualmente está activa en una docena de 
-                países.</h2>
+            <h3>La versión beta de la proyecto viene funcionando desde hace más de un año y actualmente está activa en una docena de 
+                países.</h3>
             <figure>
-                <img src="https://cdni.rt.com/actualidad/public_images/2021.09/article/614847e759bf5b413318a5f2.jpg" alt="Elon Musk 
+                <img src="Imagenes/Imagen1.jpg" alt="Elon Musk 
                 anuncia el momento del lanzamiento de la red de Internet satelital Starlink">
-                <figcaption>Space X</figcaption>
+                <figcaption class="article-subtitle-inside">Space X</figcaption>
             </figure>
         </header>
-        <article>
+        <article class="main">
             <p>
                 El proyecto Starlink de SpaceX, que busca proporcionar cobertura mundial de Internet satelital de banda ancha a bajo 
                 costo, podría salir de su periodo de pruebas y lanzarse oficialmente en octubre, según adelantó el fundador y director 
@@ -60,14 +69,26 @@
         </article>
         <footer>
             <!--En la página aparece en negrita, no le puse strong porque me pareció mas de css que algo relevante-->
-            <em>
+            <em class="em">
                 Si te ha gustado, ¡compártelo con tus amigos!
             </em>
+            <div class="em-alink">
+                <em><a href="file:///C:/Users/user/Documents/GitHub/My-new-project/Index2.html">Más noticias en inglés</a></em>
+            </div>
             <div id="video">    
                 <video controls preload loop>
                     <source src="videos/video3.mp4" type="video/mp4">
                 </video>
             </div>
+                    <div class="container">
+            <a href="https://edition.cnn.com/"><img src="Imagenes/Imagen-CNN.png"></a>
+            <a href="https://edition.cnn.com/travel"><img src="Imagenes/Imagen-Travel.png"></a>
+            </div>
+             <div>
+            <span class="copyright">
+                © 2021 Cable News Network.A Warner Media Company.All Rights Reserved.
+                CNN Sans ™ & © 2016 Cable News Network.
+            </span>
         </footer>
     </body>
 </html>
